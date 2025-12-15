@@ -1,0 +1,8 @@
+connectorId: example
+generate:
+  javascriptSdk:
+    - outputDir: ..\..\nextjs-start\src\dataconnect-generated
+      package: "@dataconnect/generated"
+      packageJsonDir: ..\..\nextjs-start
+      react: true
+      angular: false
